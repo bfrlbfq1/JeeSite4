@@ -20,9 +20,9 @@ killSpringBoot()
 killSpringBoot
 
 ## Maven 编译
-cd ${WORKSPACE}/root
+cd ${WORKSPACE}/JeeSite4/root
 mvn clean install
 
 ## Maven 运行
-cd ${WORKSPACE}/web
+cd ${WORKSPACE}/JeeSite4/web
 nohup mvn clean spring-boot:run -Dmaven.test.skip=true &
