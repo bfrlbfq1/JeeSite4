@@ -2,7 +2,7 @@
 
 ## 检查系统类型
 export os_type=`uname`
-export /home/ubuntu/apphome/apache-maven-3.3.9/bin
+
 
 ## 停止spring-boot函数
 killSpringBoot()
