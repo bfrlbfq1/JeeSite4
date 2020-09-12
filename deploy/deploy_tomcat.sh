@@ -11,7 +11,7 @@
 export mysql_ip=129.211.167.92
 export mysql_port=3306
 export mysql_user=root
-export mysql_pwd=123456
+export mysql_pwd=1qaz2wsx
 export TOMCAT_PATH=/usr/local/apache-tomcat-8.5.57
 export PROJ_PATH=`pwd`
 
