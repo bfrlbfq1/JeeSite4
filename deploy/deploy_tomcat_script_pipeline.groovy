@@ -1,6 +1,6 @@
 node('master') {
     stage('同步源码') {
-            git([url: 'git@github.com/bfrlbfq1/JeeSite4.git', branch: '${branch}'])
+            git([url: 'https://github.com/bfrlbfq1/JeeSite4.git', branch: '${branch}'])
     }
 
     stage('maven编译打包') {
